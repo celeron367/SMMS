@@ -1,0 +1,212 @@
+record(ai, "MS:START")
+{
+    field(DESC, "Analog input")
+    field(MDEL, "-1")
+}
+record(ai, "ID:STATUS")
+{
+    field(DESC, "Analog input")
+    field(MDEL, "-1")
+}
+
+record(stringin,"ID:INFO") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+
+record(waveform, "MS:X")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(waveform, "MS:Y")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(ai, "MS:NUM")
+{
+    field(DESC, "Analog input")
+    field(MDEL, "-1")
+}
+
+
+
+
+
+record(stringin,"ID1:TAG1") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+record(stringin,"ID1:TAG2") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+record(stringin,"ID1:NAME") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+
+record(waveform, "ID1:X")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 100)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(waveform, "ID1:Y")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 100)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+
+record(waveform, "ID1:REF:X")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(waveform, "ID1:REF:Y")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+
+record(ai, "ID1:SCORE")
+{
+    field(DESC, "Analog input")
+    field(MDEL, "-1")
+}
+
+
+
+
+
+
+
+
+
+record(stringin,"ID2:TAG1") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+record(stringin,"ID2:TAG2") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+record(stringin,"ID2:NAME") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+
+record(waveform, "ID2:X")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 100)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(waveform, "ID2:Y")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 100)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+
+record(waveform, "ID2:REF:X")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(waveform, "ID2:REF:Y")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+
+record(ai, "ID2:SCORE")
+{
+    field(DESC, "Analog input")
+    field(MDEL, "-1")
+}
+
+
+
+
+
+record(stringin,"ID3:TAG1") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+record(stringin,"ID3:TAG2") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+record(stringin,"ID3:NAME") {
+    field(DESC,"stringin")
+    field(PINI, "YES")
+}
+
+record(waveform, "ID3:X")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 100)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(waveform, "ID3:Y")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 100)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+
+record(waveform, "ID3:REF:X")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+record(waveform, "ID3:REF:Y")
+{
+    field(DESC, "Double waveform record")
+    field(NELM, 40000)
+    field(FTVL, "FLOAT")
+    field(EGU, "mm")
+    field (PINI, "YES")
+}
+
+record(ai, "ID3:SCORE")
+{
+    field(DESC, "Analog input")
+    field(MDEL, "-1")
+}
